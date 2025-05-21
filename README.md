@@ -15,5 +15,20 @@ Saat saya mengetik pesan di salah satu client, pesan tersebut dikirim ke server 
 ### Screenshot server
 ![Image](https://github.com/user-attachments/assets/c7c7142e-bb38-4492-be54-679501a45e9d)
 
+## 1.2 Modifying the websocket port
 
+Ketika saya memodifikasi port pada client dari 2000 menjadi 8080, maka server tidak akan bisa berjalan karena server sendiri berjalan di server 2000, yang mana server dan client harus berada di port yang sama. Jadi, agar aplikasi tetap berjalan, jika ingin mengubah port ke 8080, server dan client keduanya harus berjalan di port tersebut.
 
+### Tampilan sebelum mengubah port server ke 8080
+Server:
+![Image](https://github.com/user-attachments/assets/9cecc507-d20e-4e7f-bbf6-9ea8966c5eee)
+
+Client:
+![Image](https://github.com/user-attachments/assets/39b4bae5-15aa-4331-93a1-7bad0a730283)
+
+### Tampilan setelah mengubah port server ke 8080
+Server:
+![Image](https://github.com/user-attachments/assets/c54a05a0-f063-401b-a9a6-a93a292c0981)
+
+Client:
+![Image](https://github.com/user-attachments/assets/78ced868-e207-4da4-9af0-040487ace28c)
